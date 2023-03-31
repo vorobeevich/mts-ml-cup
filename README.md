@@ -24,4 +24,5 @@ Further, the following feature was used: the sum of request_cnt for all url_hots
 Also, all categorical features (*date*, *region_name*, *city_name*, *cpe_manufacturer_name*, *cpe_model_name*, *cpe_type_cd*, *cpe_model_os_type*, *part_of_day*) have been replaced with numbers using label encoding. Then their aggregations were used using the sum, average, minimum, maximum, median, mode, std.
 
 Final number of features: 64 * 10 (als) + 1024 (top_urls) + 8 * 7 (categorical features) = **1720**.
+
 As a result, we managed to get a score of **1.64**. The selection of hyperparameters for the CatBoost with the help of Optuna did not give an increase in quality.
