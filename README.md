@@ -13,7 +13,7 @@ Brief report:
 
 The notebook with a baseline from the authors of the competition was taken as a start point (https://www.kaggle.com/code/dmitriy89/mts-ml-cup-2023-baseline/notebook). To begin with, in addition to als embeddings regarding user_id and url_host for the request_cnt sum, the same embeddings were used for the price feature. Also, in addition to the operation of the sum, aggregations were added through the mean, minimum and maximum. This helped increase the score from **1.48** to **1.54**.
 
-Further, the following feature was used: the sum of request_cnt for all url_hots from the top_k most popular. 256, 512, 1024 were used as the top_k parameter, and the quality steadily increased.
+Further, the following feature was used: the sum of request_cnt for all url_hots from the top_k most popular. **256**, **512**, **1024** were used as the top_k parameter, and the quality steadily increased.
 
 Also, all categorical features (date, region_name, city_name, cpe_manufacturer_name, cpe_model_name, cpe_type_cd, cpe_model_os_type, part_of_day) have been replaced with numbers using label encoding. Then their aggregations were used using the sum, average, minimum, maximum, median, mode, std.
-As a result, we managed to get a score of 1.64. The selection of hyperparameters for the CatBoost with the help of Optuna did not give an increase in quality.
+As a result, we managed to get a score of **1.64**. The selection of hyperparameters for the CatBoost with the help of Optuna did not give an increase in quality.
