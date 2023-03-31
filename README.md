@@ -6,6 +6,9 @@ Solution of team **baseline_business** at the MTS Machine Learning Cup 2023 comp
 
 Public & Private scores: **1.64** (~ top **25%** of leaderboard).
 
+![image](https://user-images.githubusercontent.com/61282340/229232507-a03a911a-6443-43cd-bcaf-f049135012f9.png)
+
+
 # Links
 
 Google Colab **link**: https://colab.research.google.com/drive/1V8tjtyK4yzPqxLSiTGtarh0jHPGyu6bd?usp=sharing
