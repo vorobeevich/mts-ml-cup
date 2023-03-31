@@ -11,6 +11,7 @@ Public & Private scores: **1.64** (~ top **25%** of leaderboard).
 
 # Links
 
+Competition **link**: https://ods.ai/competitions/mtsmlcup
 Google Colab **link**: https://colab.research.google.com/drive/1V8tjtyK4yzPqxLSiTGtarh0jHPGyu6bd?usp=sharing
 Kaggle **link**: https://www.kaggle.com/code/valeryberezovsky/notebookcdc69f64b3
 
