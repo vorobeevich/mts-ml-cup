@@ -6,10 +6,12 @@ Solution of team **baseline_business** at the MTS Machine Learning Cup 2023 comp
 
 Public & Private scores: **1.64** (~ top **25%** of leaderboard).
 
+# Links
+
 Google Colab **link**: https://colab.research.google.com/drive/1V8tjtyK4yzPqxLSiTGtarh0jHPGyu6bd?usp=sharing
 Kaggle **link**: https://www.kaggle.com/code/valeryberezovsky/notebookcdc69f64b3
 
-Brief report:
+# Brief report:
 
 The notebook with a baseline from the authors of the competition was taken as a start point (https://www.kaggle.com/code/dmitriy89/mts-ml-cup-2023-baseline/notebook). To begin with, in addition to als embeddings regarding user_id and url_host for the request_cnt sum, the same embeddings were used for the price feature. Also, in addition to the operation of the sum, aggregations were added through the mean, minimum and maximum. This helped increase the score from **1.48** to **1.54**.
 
