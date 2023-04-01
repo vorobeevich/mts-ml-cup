@@ -25,4 +25,4 @@ Also, all categorical features (*date*, *region_name*, *city_name*, *cpe_manufac
 
 Final number of features: **64** * **10** (als) + **1024** (top_urls) + **8** * **7** (categorical features) = **1720**.
 
-As a result, we managed to get a score of **1.64**. The selection of hyperparameters for the CatBoost with the help of Optuna did not give an increase in quality.
+As a result, we managed to get a score of **1.64**. The selection of hyperparameters for CatBoost with the help of Optuna did not give an increase in quality.
