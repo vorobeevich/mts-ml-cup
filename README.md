@@ -1,5 +1,5 @@
 # mts-ml-cup
-Solution of team **baseline_business** at the MTS Machine Learning Cup 2023 competition.
+Solution of team **baseline_business** at MTS Machine Learning Cup 2023 competition.
 
 
 ![image](https://user-images.githubusercontent.com/61282340/229229125-b48b3929-dd40-434d-80ea-e5545b70d1b5.png)
